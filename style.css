@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+    background-color: #e1e8eb;
+}
+.neveshte{
+    font-size: 65px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255,0.92);
+    margin-top: 75px;
+}
+.diffrentfont{
+    font-size: 65px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    color: rgb(255, 255, 255,0.92);
+}
+.header{
+    background-color: #e1e8eb;
+    height: 254px;
+    width: 100%;
+    background-image: linear-gradient(to right, rgba(101, 0, 163, 9), rgba(24, 120, 175, 9));
+    position: absolute;
+    z-index: -1;
+    top: 0;
+}
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.content{
+    display: flex;
+    flex-direction: row;
+    width: 860px;
+    height: 450px;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 4px rgba(0, 0, 0, 0.1);
+}
+.buttons{
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    height: 100%;
+    background-color: #f1f6f8;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+h3{
+    margin-bottom: 50px;
+}
+#input{
+    font-family: Inter sens sans-serif;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    resize: none;
+    padding: 30px 40px;
+    font-size: 22px;
+
+    border: none;
+    outline: none;
+
+
+}
+.twitter{
+    width: 50%;
+    text-align: center;
+    align-content: center;
+    border-left: 1px solid rgba(0, 0, 0, 0.08);
+}
+.facebook{
+    width: 50%;
+    text-align: center;
+    align-content: center;
+    border-left: 1px solid rgba(0, 0, 0, 0.08);
+
+}
+.characters{
+    width: 50%;
+    text-align: center;
+    align-content: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    border-left: 1px solid rgba(0, 0, 0, 0.08);
+}
+.word{
+    width: 50%;
+    text-align: center;
+    align-content: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.08);
+    border-left: 1px solid rgba(0, 0, 0, 0.08);
+
+}
+.stat{
+
+}
+p{
+    font-size: 35px;
+    font-weight: 600;
+    color: #4d5457;
+}
+h2{
+    font-size: 18px;
+
+}
+@media screen and (max-width:860px){
+    .content{
+        flex-direction: column;
+        width: 80%;
+
+    }
+    .buttons{
+        width: 100%;
+    }
+    .neveshte{
+        text-align: center;
+    }
+
+}
+@media screen and (max-width:460px){
+
+    .word{
+        width: 100%;
+    }
+    .characters{
+        width: 100%;
+    }
+    .twitter{
+        width: 100%;
+    }
+    .facebook{
+        width: 100%;
+    }
+    .neveshte{
+        text-align: center;
+        font-size:35px;
+    }
+    .diffrentfont{
+        font-size:35px;
+    }
+    #input{
+        font-size: 15px;
+    }
+}
+.fix{
+    width: 60%;
+}
+
